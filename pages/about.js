@@ -1,6 +1,9 @@
+
+
 const about = () => {
-  return ( <
-    div >
+  return ( 
+    
+    <div >
     <h1> About </h1> 
     </div>
   )
