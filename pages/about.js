@@ -2,6 +2,8 @@ import Head from 'next/head';
 import styled from 'styled-components'
 
 
+
+
 const Hero = styled.div`
   height: 90vh;
   display: flex;
@@ -20,11 +22,12 @@ const about = () => {
   return ( 
  <>
     <Head>
-      <title>Interwovencare</title>
+      <title>About us</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
     <Hero>
-      <Heading>Coming Soon</Heading>
+      
+      <h1>Site is under Construction. Coming soon!</h1>
     </Hero>
 </>
   );
