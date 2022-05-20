@@ -2,21 +2,39 @@ import Head from 'next/head';
 import styled from 'styled-components'
 
 
-
-
-const Hero = styled.div`
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
 `;
 
-const Heading = styled.h1`
-  color: #000;
-  font-size: 5rem;
-  font-weight: 900;
+// Create a Wrapper component that'll render a <section> tag with some styles
+const Wrapper = styled.section`
+  padding: 25em;
+  background: papayawhip;
+  
 `;
+
+const StyledTopesquerdo = styled.div`
+    height: 100px;
+    width: 100px;
+    
+
+`
+
+// const Hero = styled.div`
+//   height: 90vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background: #fff;
+// `;
+
+// const Heading = styled.h1`
+//   color: #000;
+//   font-size: 5rem;
+//   font-weight: 900;
+// `;
 
 const about = () => {
   return ( 
@@ -25,10 +43,11 @@ const about = () => {
       <title>About us</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <Hero>
-      
-      <h1>Site is under Construction. Coming soon!</h1>
-    </Hero>
+    
+  <Wrapper>
+    
+  </Wrapper>
+
 </>
   );
 }

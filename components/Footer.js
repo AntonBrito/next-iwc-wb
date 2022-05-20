@@ -11,7 +11,7 @@ align-items: center;
 const Footer = () => {
   return (
     <FooterSection>
-      <p>Interwovencare 2022 All Rights Reserved</p>
+      <p class="text-white">Interwovencare 2022 All Rights Reserved</p>
     </FooterSection>
   );
 };
