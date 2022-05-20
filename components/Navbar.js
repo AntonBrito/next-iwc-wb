@@ -11,6 +11,7 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 `;
 
 const StyledLink = styled.a`
@@ -24,23 +25,23 @@ const StyledLink = styled.a`
 
 const Navbar = () => {
     return (
-    <Nav>
+    <Nav className='mb-8'>
     
-        <div class="grid grid-cols-2 flex items-center justify-between p-6 flex-wrap float-left h-80 w-80">
-            <div class="flex items-center p-6">
-                <div  className={styled.topesquerdo}>
+        <div className="grid grid-cols-1 flex items-center justify-between p-6 flex-wrap float-left h-60 w-60">
+            <div className="flex items-center p-6">
+                <div className={styled.topesquerdo}>
                     <Link href='/'className="titulo">
                         <Image src={topesquerdo} />
-                    </Link>
+                    </Link> 
                 </div>
             </div> 
-            <div class="flex items-center p-1 space-x-6 gap-8">
+            {/* <div className="flex items-center p-1 space-x-6 gap-8 h-60 w-40">
                 <div class="flex "className={styled.logo}>
                 <Link href='/'className="titulo">
                      <Image src={logo} />
                 </Link>
                 </div>
-            </div>
+            </div> */}
             
         </div>
         <div>
