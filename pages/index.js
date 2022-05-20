@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components';
+import PrenatalSection from '../components/PrenatalSection';
 
 const Hero = styled.div`
   height: 90vh;
@@ -22,9 +23,7 @@ export default function Home() {
     <title>Interwovencare</title>
     <link rel='icon' href='/favicon.ico' />
     </Head>
-    <Hero>
-      <Heading>Coming Soon</Heading>
-    </Hero>
+    <PrenatalSection />
     </>
   )
 }
