@@ -1,6 +1,7 @@
 import react from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 import massagebed from '../public/massagebed.jpg';
+
 
 export default function EventSection(props) {
     return (
