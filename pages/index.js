@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styled from 'styled-components';
-import PrenatalSection from '../components/PrenatalSection';
-
+import HeaderSection from '../components/EventSection';
+import EventSection from '../components/HeaderSection';
 const Hero = styled.div`
   height: 90vh;
   display: flex;
@@ -23,7 +23,9 @@ export default function Home() {
     <title>Interwovencare</title>
     <link rel='icon' href='/favicon.ico' />
     </Head>
-    <PrenatalSection />
+    <EventSection />
+    <HeaderSection />
+   
     </>
   )
 }
