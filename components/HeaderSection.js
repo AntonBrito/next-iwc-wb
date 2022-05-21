@@ -12,7 +12,7 @@ export default function HeaderSection(props) {
                 </h1>
                <br></br>
                 <p className="text-3xl text-gray-500 fonte-bold">
-                    Full Spectrum Doula<span className="text-purple-700">&</span> Perinatal Massage Therapist
+                    Full Spectrum Doula & Perinatal Massage Therapist
                 </p>
                 <br></br>
                 <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">

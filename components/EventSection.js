@@ -11,7 +11,7 @@ export default function EventSection(props) {
             <div className="bg-gray-800 py-20 px-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 flex flex-col max-w-6xl md-flex-row">
                     <div className="md:w-[60%] grow p-3">
-                        <h1 className="text-4xl text-gray-200 text-6xl font-bold mb-10">
+                        <h1 className="text-5xl text-gray-200 font-bold mb-10">
                         On Site Wellness Services
                         </h1>
                        
