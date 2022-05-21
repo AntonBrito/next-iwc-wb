@@ -9,7 +9,7 @@ export default function EventSection(props) {
             // Sen poi flex e ta fika tudo na centro
             // Trokal pa cor d tras-preto
         <div className="bg-gray-800 py-20 px-10">
-            <div className="grid grid-cols-3 md:grid-cols-1 lg:grid-cols-3 flex flex-col max-w-8xl md-flex-row">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 flex flex-col max-w-8xl md-flex-row">
                 <div className="md:w-[60%] grow p-3">
                     <h1 className="text-5xl text-gray-200 font-bold mb-10">
                     On Site Wellness Services
