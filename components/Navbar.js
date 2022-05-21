@@ -49,14 +49,12 @@ const Navbar = () => {
             
         </div>
         <div>
-            <Link href="/">
-                <StyledLink>Home</StyledLink>
+            
+            <Link href="/about">
+                <StyledLink>About</StyledLink>
             </Link>
             <Link href="/about">
-                <StyledLink>About us</StyledLink>
-            </Link>
-            <Link href="/about">
-                <StyledLink>Events</StyledLink>
+                <StyledLink>Services</StyledLink>
             </Link>
         </div>
     </Nav>
