@@ -19,7 +19,7 @@ export default function EventSection(props) {
                              
                         </p>
                     </div>
-                 <div>  
+                 <div className=' p-3'>  
                      <ul>
                          <li href="#" className="text-gray-400 text-2xl font-bold">Relax with Massage Hydrotherapy</li>
                          <br></br>
