@@ -6,8 +6,8 @@ export default function Contact(props) {
        
             // Sen poi flex e ta fika tudo na centro
             // Trokal pa cor d tras-preto
-            <div className="flex bg-gray-200 py-20 px-10 flex-col items-center ">
-                <h1 className="text-5xl  text-gray-600 font-bold">
+            <div className="flex bg-gray-800 py-20 px-10 flex-col items-center ">
+                <h1 className="text-5xl  text-gray-200 font-bold">
                 Get in Touch
                 </h1>
                <br></br>
