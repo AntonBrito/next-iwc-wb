@@ -20,17 +20,17 @@ export default function EventSection(props) {
                         </p>
                     </div>
                  <div className=' p-3'>  
-                     <ul>
-                         <li href="#" className="text-gray-400 text-2xl font-bold">Relax with Massage Hydrotherapy</li>
+                     
+                         <ul href="#" className="text-gray-400 text-2xl font-bold">Relax with Massage Hydrotherapy</ul>
                          <br></br>
-                        <li href="#" className="text-gray-400 text-2xl font-bold">Bridal Showers</li>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold">Bridal Showers</ul>
                         <br></br>
-                         <li href="#" className="text-gray-400 text-2xl font-bold">Yoga</li>
+                         <ul href="#" className="text-gray-400 text-2xl font-bold">Yoga</ul>
                         <br></br>
-                        <li href="#" className="text-gray-400 text-2xl font-bold">Company wellness packages</li>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold">Company wellness packages</ul>
                         <br></br>
-                        <li href="#" className="text-gray-400 text-2xl font-bold">Private Events</li>
-                     </ul>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold">Private Events</ul>
+                    
                      <br></br>
                     <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
                         Book Now!
