@@ -2,7 +2,7 @@ import Head from 'next/head';
 import ServeiceEventHeadSection from '../components/ServiceEventHeadSection'; 
 import ServiceEventSection from '../components/ServiceEventSection';
 import Contact from '../components/Contact';
-
+import EventSection from '../components/EventSection';
 
 const  Services = () => { 
     return ( 
@@ -13,6 +13,7 @@ const  Services = () => {
         </Head>
         <ServeiceEventHeadSection />
         <ServiceEventSection />
+        <EventSection />
         <Contact />
         </>
     )
