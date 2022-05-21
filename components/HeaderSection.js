@@ -8,7 +8,7 @@ export default function HeaderSection(props) {
             // Trokal pa cor d tras-preto
             <div className="flex bg-gray-200 py-20 px-10 flex-col items-center ">
                 <h1 className="text-5xl  text-gray-600 font-bold">
-                Interwovencare  
+                Interwoven Care  
                 </h1>
                <br></br>
                 <p className="text-3xl text-gray-500 fonte-bold">
