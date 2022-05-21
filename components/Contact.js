@@ -14,7 +14,7 @@ export default function Contact(props) {
                 <div>
                         <ul href="#" className="text-gray-400 text-2xl font-bold">Interwovencare@gmail.com</ul>
                          <br></br>
-                        <ul href="#" className="text-gray-500 text-2xl font-bold">978, 376, 8918</ul>
+                        <ul href="#" className="text-gray-500 text-2xl font-bold">978.376.8918</ul>
                 </div>
             </div>
      
