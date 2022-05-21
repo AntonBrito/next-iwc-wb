@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components';
+import Contact from '../components/Contact';
 import HeaderSection from '../components/EventSection';
 import EventSection from '../components/HeaderSection';
 const Hero = styled.div`
@@ -25,7 +26,7 @@ export default function Home() {
     </Head>
     <EventSection />
     <HeaderSection />
-   
+    <Contact />
     </>
   )
 }
