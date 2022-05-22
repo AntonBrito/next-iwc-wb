@@ -24,6 +24,7 @@ export default function Home() {
     <Head>
     <title>Interwovencare</title>
     <link rel='icon' href='/favicon.ico' />
+    <meta name="viewport" content="Interwoven Care, Providence Massage, Pregnant-massage, Prenatal-massage" />
     </Head>
     <EventSection />
     <ServeiceEventSection />
