@@ -12,7 +12,7 @@ export default function EventSection(props) {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 flex flex-col max-w-8xl md-flex-row">
                 <div className="md:w-[60%] grow p-3">
                     <h1 className="text-5xl text-gray-600 font-bold mb-10">
-                    Individual, Family Wellness Services
+                    Individual & Family Wellness Services
                     </h1>
                     
                     <p className="text-3xl text-gray-400 font-bold">
@@ -24,7 +24,7 @@ export default function EventSection(props) {
                     <br></br>
                     <ul href="#" className="text-gray-400 text-2xl font-bold">Prenatal Massge</ul>
                     <br></br>
-                        <ul href="#" className="text-gray-400 text-2xl font-bold">Post Purtun</ul>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold">Postpartum</ul>
                     <br></br>
                     <ul href="#" className="text-gray-400 text-2xl font-bold">Recovery Tratments</ul>
                     <br></br>
