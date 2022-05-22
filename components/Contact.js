@@ -12,9 +12,9 @@ export default function Contact(props) {
                 </h1>
                <br></br>
                 <div>
-                        <ul href="#" className="text-gray-400 text-2xl font-bold">Interwovencare@gmail.com</ul>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold underline undeline-offset-5">Interwovencare@gmail.com</ul>
                          <br></br>
-                        <ul href="#" className="text-gray-500 text-2xl font-bold">978.376.8918</ul>
+                        <ul href="#" className="text-gray-500 text-2xl font-bold underline undeline-offset-5">978.376.8918</ul>
                 </div>
             </div>
      
