@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import Image from 'next/image';
 import topesquerdo from '../public/toplogo.png'
-import logo from '../public/logo.png';
+
 
 const Nav = styled.nav`
     height: 100px;
@@ -35,13 +35,7 @@ const Navbar = () => {
                     </Link> 
                 </div>
             </div> 
-            {/* <div className="flex items-center p-1 space-x-6 gap-8 h-60 w-40">
-                <div class="flex "className={styled.logo}>
-                <Link href='/'className="titulo">
-                     <Image src={logo} />
-                </Link>
-                </div>
-            </div> */}
+    
             
         </div>
         <div>
