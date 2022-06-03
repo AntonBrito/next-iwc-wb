@@ -23,9 +23,10 @@ export default function ServeiceEventSection(props) {
                     <div className="w-full p-4">
                     <Image src={contemple} alt="Events anoucementes"/>
                     </div>
-                 <div className='items-center p-3'>  
+                 <div className='flex items-center p-3 '>  
+                 <div className=' p-6 float-right items-center'>
                         <h1 className="text-3xl text-gray-200 font-bold mb-10">Private Events:</h1>
-    
+                    
                         <ul href="#" className="text-gray-400 text-2xl font-bold">Bridal Showers</ul>
                         <br></br>
                          <ul href="#" className="text-gray-400 text-2xl font-bold">Baby Showers</ul>
@@ -39,6 +40,7 @@ export default function ServeiceEventSection(props) {
                     <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
                         Book Now!
                     </a>
+                    </div>
                 </div>
                 
             </div>
