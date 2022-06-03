@@ -41,9 +41,9 @@ const Navbar = () => {
         
         <div>
             
-            <Link href="/about">
+            {/* <Link href="/about">
                 <StyledLink>About</StyledLink>
-            </Link>
+            </Link> */}
             <Link href="/services">
                 <StyledLink>Services</StyledLink>
             </Link>
