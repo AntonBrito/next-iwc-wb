@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
     <Nav className='mb-8'>
     
-        <div className="grid grid-cols-1 flex items-center justify-between p-6 flex-wrap float-left h-60 w-60">
+        <div className="grid grid-cols-1 flex items-center justify-between py-5 p-6 flex-wrap float-left h-60 w-60">
             <div className="flex items-center p-6">
                 <div className={styled.topesquerdo}>
                     <Link href='/'className="titulo">
@@ -38,10 +38,7 @@ const Navbar = () => {
     
             
         </div>
-        <div>
-
-            
-        </div>
+        
         <div>
             
             <Link href="/about">
