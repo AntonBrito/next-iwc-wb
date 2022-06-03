@@ -25,9 +25,9 @@ const StyledLink = styled.a`
 
 const Navbar = () => {
     return (
-    <Nav className='mb-8'>
+    <Nav className='mb-8 grid grid-cols-1 p-10'>
     
-        <div className="grid grid-cols-1 flex items-center justify-between py-5 p-6 flex-wrap float-left h-60 w-60">
+        <div className=" flex items-center justify-between py-5 p-6 flex-wrap float-left h-60 w-60">
             <div className="flex items-center p-6">
                 <div className={styled.topesquerdo}>
                     <Link href='/'className="titulo">
@@ -39,7 +39,7 @@ const Navbar = () => {
             
         </div>
         
-        <div>
+        <div className="text-2xl">
             
             {/* <Link href="/about">
                 <StyledLink>About</StyledLink>
