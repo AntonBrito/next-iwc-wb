@@ -20,15 +20,15 @@ export default function EventSection(props) {
                     </p>
                 </div>
                 <div className=' p-3'>  
-                    <ul href="#" className="text-gray-400 text-2xl font-bold">Massage Theraphy</ul>
+                    <ul href="#" className="text-gray-400 text-2xl font-bold">Massage Therapy</ul>
                     <br></br>
-                    <ul href="#" className="text-gray-400 text-2xl font-bold">Prenatal Massge</ul>
+                    <ul href="#" className="text-gray-400 text-2xl font-bold">Prenatal Massage</ul>
                     <br></br>
-                        <ul href="#" className="text-gray-400 text-2xl font-bold">Postpartum</ul>
+                        <ul href="#" className="text-gray-400 text-2xl font-bold">Postpartum Massage</ul>
                     <br></br>
-                    <ul href="#" className="text-gray-400 text-2xl font-bold">Recovery Tratments</ul>
+                    <ul href="#" className="text-gray-400 text-2xl font-bold">Post Birth Recovery Treatments</ul>
                     <br></br>
-                    <ul href="#" className="text-gray-400 text-2xl font-bold">Aligments Base Yoga</ul>
+                    <ul href="#" className="text-gray-400 text-2xl font-bold">Alignment based Yoga</ul>
                 
                     <br></br>
                     <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
