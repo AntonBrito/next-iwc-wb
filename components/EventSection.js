@@ -31,9 +31,9 @@ export default function EventSection(props) {
                     <ul href="#" className="text-gray-400 text-2xl font-bold">Alignment based Yoga</ul>
                 
                     <br></br>
-                    <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
+                    {/* <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
                     Book Now!
-                    </a>
+                    </a> */}
                 </div>
                 <div className="w-full p-4">
                     <Image src={massagebed} alt="Events anoucementes"/>

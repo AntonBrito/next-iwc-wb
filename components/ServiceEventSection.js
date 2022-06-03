@@ -37,9 +37,9 @@ export default function ServeiceEventSection(props) {
                     
                      <br></br>
                      <br></br>
-                    <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
+                    {/* <a href="#Services" className=" bg-orange-300 rounded-md mt-8 py-3 px-4 text-gray-800 text-2xl hover:bg-orange-400">
                         Book Now!
-                    </a>
+                    </a> */}
                     </div>
                 </div>
                 
