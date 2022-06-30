@@ -27,9 +27,9 @@ const Navbar = () => {
     return (
     <Nav className='mb-8 grid grid-cols-1 p-10'>
     
-        <div className=" flex items-center justify-between py-5 p-6 flex-wrap float-left h-60 w-60">
+        <div className="flex items-center justify-between  p-6 pt-5 flex-wrap float-left h-60 w-60">
             <div className="flex items-center p-6">
-                <div className={styled.topesquerdo}>
+                <div className="flex items-center p-6 pt-6 pb-1">
                     <Link href='/'className="titulo">
                         <Image src={topesquerdo} />
                     </Link> 
